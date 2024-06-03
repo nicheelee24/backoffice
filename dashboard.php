@@ -1,15 +1,9 @@
 <?php
-session_start();
+
   
   
 
- if(!isset($_SESSION["auth"]))
- {
-
-  header("Location: ./index.php",false);
-  exit();
  
-}
 include 'layout/header.php'; 
 ?>
 
