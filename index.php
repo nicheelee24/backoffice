@@ -28,7 +28,7 @@
       <form>
        
         <div class="input-group mb-3">
-        <input type="hidden" class="form-control" name="secret" value="<?php echo $secret?>">
+        <input type="hidden" class="form-control" name="secret">
           <input type="text" class="form-control" name="uname" placeholder="Username">
           <div class="input-group-append">
             <div class="input-group-text">
